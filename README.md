@@ -36,7 +36,7 @@ Para instalar as dependências, execute no terminal do seu projeto: npm install
 
 2. Navegue até o diretório do projeto:​
 
-3. Dentro da pasta API acesse arquivo server.js e execute no terminal "node server.js" para inicializar a API.
+3. Dentro da pasta API acesse arquivo server.js e execute o comando "npm install cors" no terminal e depois execute o comando "node server.js" para inicializar a API.
 
 4. Abra o arquivo index.html em seu navegador preferido.​
 
