@@ -28,7 +28,7 @@ JavaScript​
 
 O projeto utiliza o Node.js para gerenciamento de dependências. Certifique-se de ter o Node.js instalado em sua máquina.​
 
-Para instalar as dependências, execute no terminal do seu projeto: npm install
+Para instalar as dependências, depois de instalado o Node execute no terminal do seu projeto o comando "npm install"
 
 🚀 Como Executar Localmente
 
@@ -36,7 +36,7 @@ Para instalar as dependências, execute no terminal do seu projeto: npm install
 
 2. Navegue até o diretório do projeto:​
 
-3. Dentro da pasta API acesse arquivo server.js e execute o comando "npm install cors" no terminal e depois execute o comando "node server.js" para inicializar a API.
+3. Dentro da pasta API acesse o arquivo server.js e execute o comando "npm install cors" no terminal e depois execute o comando "node server.js" para inicializar a API.
 
 4. Abra o arquivo index.html em seu navegador preferido.​
 
