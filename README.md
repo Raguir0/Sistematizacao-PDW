@@ -1,4 +1,5 @@
-Sistematização PDW <break>
+Sistematização PDW
+
 Este projeto foi desenvolvido como parte da disciplina de Programação e Desenvolvimento Web (PDW) do curso de Análise e Desenvolvimento de Sistemas no UniCEUB. Consiste em uma landing page estática para uma clínica fictícia, apresentando suas principais especialidades, equipe, informações de contato e formulário de inscrição.​
 GitHub
 +2
