@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equipe - CliniStar</title>
+    <link rel="stylesheet" href="CSS/equipe.css">
+    <link rel="stylesheet" href="CSS/popup.css">
+</head>
+<body>
+    <!-- Menu de navegação -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="equipe.html">Equipe</a></li>
+            <li><a href="inscrevase.html">Contato</a></li>
+        </ul>
+    </nav>
+
+    <!-- Página Equipe -->
+    <header>
+        <h1>Nossa Equipe</h1>
+        <p>Conheça os profissionais dedicados que fazem a diferença na CliniStar!</p>
+    </header>
+
+    <section id="equipe">
+        <h2 class="H2Equipe">Nossa Equipe</h2>
+        <div id="profissionais" class="profissionais">
+            <!-- O conteúdo da equipe será carregado dinamicamente aqui -->
+             <!-- Os ícones serão adicionados dinamicamente via JavaScript -->
+        </div>
+    </section>
+
+    <div id="popup" class="popup" style="display: none;">
+        <div class="popup-content">
+            <span id="close-popup" class="close-popup">&times;</span>
+            <img id="popup-imagem" src="" alt="Imagem do profissional" style="max-width: 100%; border-radius: 10px; margin-bottom: 10px;">
+            <h3 id="popup-nome"></h3>
+            <!-- O calendário ou outras informações podem continuar abaixo, se necessário -->
+            <div id="popup-calendar"></div>
+            <p id="popup-horario"> <span id="horarios-dia"></span></p> <!-- Exibição dos horários -->
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3>Contato</h3>
+                <p><strong>Telefone:</strong> (61) 99999-9999</p>
+                <p><strong>Email:</strong> contato@clinistar.com</p>
+            </div>
+            <div class="footer-column">
+                <h3>Horário de Funcionamento</h3>
+                <ul>
+                    <p>Segunda a Sexta: 08:00 - 19:00</p>
+                    <p>Sábado: 09:00 - 15:00</p>
+                    <p>Domingo: Fechado</p>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Endereço</h3>
+                <p>Avenida Central, 1234</p>
+                <p>Brasília, DF, Brasil</p>
+                <p>CEP: 00000-000</p>
+            </div>
+        </div>
+        <p class="footer-copy">© 2025 CliniStar. Todos os direitos reservados.</p>
+    </footer>
+    <script src="API/script.js"></script>
+    <script src="API/popup.js"></script>
+</body>
+</html>

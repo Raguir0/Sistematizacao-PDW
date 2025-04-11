@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@keyframes moveBackground {
+    0% { background-position: 0 0; }
+    100% { background-position: 100% 100%; }
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-image: url('/image/estrelaFundo.png'); /* Substitua pelo caminho correto da sua imagem */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: moveBackground 40s linear infinite;
+}
+
+nav {
+    background-color: #2d44c7; /* Cor de fundo do menu */
+    padding: 10px 0; /* Espaçamento superior e inferior */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra para destaque */
+}
+
+nav ul {
+    list-style: none; /* Remove os marcadores da lista */
+    display: flex; /* Flexbox para alinhar itens */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    gap: 20px; /* Espaçamento entre os links */
+}
+
+nav ul li {
+    display: inline; /* Exibe itens em linha */
+}
+
+nav ul li a {
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: white; /* Cor do texto */
+    font-size: 1.2em; /* Tamanho da fonte */
+    padding: 8px 15px; /* Espaçamento interno dos links */
+    border-radius: 5px; /* Cantos arredondados */
+    transition: background-color 0.3s ease; /* Animação suave ao passar o mouse */
+}
+
+nav ul li a:hover {
+    background-color: #043fa5; /* Cor de fundo ao passar o mouse */
+    color: white; /* Garante que o texto permaneça legível */
+}
+
+/* Cabeçalho */
+header {
+    background-color: #22359d;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+section {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #eae9f1;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 1200px;
+}
+
+section h2 {
+    color: #2d44c7;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+#profissionais {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    justify-items: center;
+}
+
+.profissional-item {
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.profissional-item img {
+    width: 200px !important;
+    height: 200px !important;
+    max-width: none;
+    object-fit: cover;
+}
+
+.profissional-item:hover {
+    transform: scale(1.05);
+}
+
+.profissional-item h3 {
+    font-size: 16px;
+    margin: 10px 0 5px;
+}
+
+.profissional-item p {
+    font-size: 14px;
+    color: #666;
+    margin: 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-column {
+    flex: 1;
+    padding: 10px;
+}
+
+.footer-copy {
+    text-align: center;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #22359d;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+
+/*Responsividade */
+
+@media (max-width: 768px) {
+    #profissionais {
+        grid-template-columns: repeat(2, 1fr); /* Reduz para 2 colunas */
+        gap: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    #profissionais {
+        grid-template-columns: repeat(1, 1fr); /* Apenas 1 coluna em telas muito pequenas */
+    }
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column; /* Organiza o footer em coluna */
+        text-align: center;
+    }
+
+    .footer-column {
+        margin-bottom: 15px;
+    }
+}

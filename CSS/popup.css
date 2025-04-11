@@ -1,0 +1,111 @@
+.profissionais {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.profissionais img {
+    cursor: pointer;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.profissionais img:hover {
+    transform: scale(1.1);
+}
+
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 300px;
+}
+
+.close-popup {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    color: #333;
+}
+
+#popup-calendar {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.calendario {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 colunas iguais */
+    grid-template-rows: repeat(2, auto);    /* 2 linhas */
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.dia-semana {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.dia-semana:active {
+    background-color: #2d44c7; /* Cor ao clicar */
+}
+
+.dia-semana.disponivel {
+    background-color: #45a049;
+    color: white;
+}
+
+.dia-semana.indisponivel {
+    background-color: #d9534f;
+    color: white;
+    cursor: not-allowed;
+}
+
+.dia-semana.disponivel:hover {
+    background-color: #426aa3; /* Um tom de verde ligeiramente diferente */
+    transform: scale(1.05);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+@media (max-width: 768px) {
+    .popup {
+        width: 90%; /* Reduz largura do popup */
+        padding: 15px;
+    }
+
+    .popup-content img {
+        max-width: 80%; /* Reduz imagem no popup */
+    }
+}

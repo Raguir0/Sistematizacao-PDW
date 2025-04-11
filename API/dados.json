@@ -1,0 +1,102 @@
+[
+    {
+      "nome": "Dr. João Silva",
+      "especialidade": "Cardiologista",
+      "disponibilidade": {
+        "Seg": "9h às 18h",
+        "Ter": "8h às 16h",
+        "Qui": "10h às 19h",
+        "Sex": "7h às 15h"
+      },
+      "imagem": "image/doutorJoao.jpg"
+    },
+    {
+      "nome": "Dra. Ana Souza",
+      "especialidade": "Nutricionista",
+      "disponibilidade": {
+        "Seg": "10h às 16h",
+        "Ter": "7h às 15h",
+        "Qui": "8h às 16h",
+        "Sex": "9h às 16h"
+      },
+      "imagem": "image/doutoraAna.jpg"
+    },
+    {
+      "nome": "Dra. Paula Araujo",
+      "especialidade": "Técnica de laboratório",
+      "disponibilidade":{
+        "Seg": "10h às 16h",
+        "Ter": "11h às 18h",
+        "Qua": "10h às 16h",
+        "Qui": "9h às 16h",
+        "Sex": "10h às 17h",
+        "Sab": "10h às 14h"
+      },
+      "imagem": "image/tecnicapaulaAraujo.jpg"
+    },
+    {
+      "nome": "Dra. Amanda Rodrigues",
+      "especialidade": "Ortopedista",
+      "disponibilidade": {
+        "Seg": "7h às 16h",
+        "Ter": "7h às 16h",
+        "Qua": "7h às 16h",
+        "Qui": "7h às 16h",
+        "Sex": "7h às 16h"
+      },
+      "imagem": "image/doutoraAmanda.jpg"
+    },
+    {
+      "nome": "Dra. Carla Mendes",
+      "especialidade": "Ginecologista",
+      "disponibilidade":{
+        "Seg": "7h às 19h",
+        "Qua": "7h às 19h",
+        "Sex": "8h às 19h"
+      },
+      "imagem": "image/doutoraCarla.jpg"
+    },
+    {
+      "nome": "Dr. Klaus Figueiredo",
+      "especialidade": "Clinico Geral",
+      "disponibilidade": {
+        "Seg": "8h às 17h",
+        "Qua": "8h às 17h",
+        "Qui": "8h às 17h"
+      },
+      "imagem": "image/doutorKlaus.jpg"
+    },
+    {
+      "nome": "Dra. Luiza Navarro",
+      "especialidade": "Cirurgiã Plastica",
+      "disponibilidade": {
+        "Ter": "8h às 15h",
+        "Qua": "8h às 15h",
+        "Qui": "8h às 15h",
+        "Sex": "8h às 15h"
+      },
+      "imagem": "image/doutoraLuiza.jpg"
+    },
+    {
+      "nome": "Dr. Roberto Guimaraes",
+      "especialidade": "Endocrinologista",
+      "disponibilidade": {
+        "Seg": "9h às 14h",
+        "Qua": "9h às 14h",
+        "Sex": "9h às 14h"
+      },
+      "imagem": "image/doutorRoberto.jpg"
+    },
+    {
+      "nome": "Dr. Guilherme Cavalcante",
+      "especialidade": "Dermatologista",
+      "disponibilidade": {
+        "Seg": "10h às 18h",
+        "Ter": "10h às 18h",
+        "Qua": "10h às 18h",
+        "Qui": "10h às 18h"
+      },
+      "imagem": "image/doutorGuilherme.jpg"
+    }
+    
+  ]
