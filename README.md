@@ -6,7 +6,7 @@ Este projeto foi desenvolvido como parte da disciplina de Programação e Desenv
 
 equipe.html – Seção dedicada à equipe médica​
 
-inscrevase.html – Formulário
+inscrevase.html – Formulário 
 
 /CSS – Estilos personalizados para o site​
 
@@ -28,12 +28,13 @@ npm install
 
 🚀 Como Executar Localmente
 
-Clone o repositório:
+1. Clone o repositório:
 
-Navegue até o diretório do projeto:​
+2. Navegue até o diretório do projeto:​
 
-Dentro da pasta API acesse arquivo server.js e escreva no terminal do arquivo "node server.js" para inicializar a API.
+3. Dentro da pasta API acesse arquivo server.js e escreva no terminal do arquivo "node server.js" para inicializar a API.
 
-Abra o arquivo index.html em seu navegador preferido.​
+4. Abra o arquivo index.html em seu navegador preferido.​
+
 
 📄 Licença
