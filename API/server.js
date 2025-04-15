@@ -5,20 +5,16 @@ const fs = require('fs');
 const app = express();
 const PORT = 3000;
 
-// Middleware para habilitar CORS
 app.use(cors());
 
-// Tentar carregar os dados do arquivo JSON
 let profissionais = [];
 try {
   const rawData = fs.readFileSync('dados.json');
   profissionais = JSON.parse(rawData);
 } catch (error) {
   console.error("Erro ao carregar o arquivo JSON:", error);
-  profissionais = []; // Garante que o servidor ainda funciona mesmo sem os dados
+  profissionais = []; 
 }
-
-// Endpoint para obter todas as especialidades
 
 app.get('/', (req, res) => {
   res.send('Bem-vindo à API da CliniStar! Acesse /profissionais para obter os dados.');
@@ -34,7 +30,6 @@ app.get('/especialidades', (req, res) => {
   }
 });
 
-// Endpoint para obter profissionais com filtros
 app.get('/profissionais', (req, res) => {
   try {
     const { especialidade, nome } = req.query;
@@ -54,7 +49,6 @@ app.get('/profissionais', (req, res) => {
   }
 });
 
-// Iniciar o servidor
 app.listen(PORT, () => {
   console.log(`Servidor rodando na porta ${PORT}`);
 });

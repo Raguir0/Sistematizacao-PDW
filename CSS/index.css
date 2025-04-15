@@ -13,7 +13,7 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     color: #333;
-    background-image: url('../image/estrelaFundo.jpg'); /* Substitua pelo caminho correto da sua imagem */
+    background-image: url('../image/estrelaFundo.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -121,20 +121,19 @@ section h2 {
 }
 
 .grid-item h3 {
-    color: #0e7ec3; /* Título do card */
+    color: #0e7ec3;
     font-size: 1.5em;
     margin-bottom: 10px;
 }
 
 .grid-item p {
-    color: #555; /* Texto do card */
+    color: #555;
     font-size: 1em;
     margin-top: 0;
 }
 
-/* Ícones (opcional) */
 .grid-item img {
-    width: 50px; /* Tamanho do ícone */
+    width: 50px;
     height: 50px;
     margin-bottom: 15px;
 }
@@ -166,7 +165,7 @@ footer {
     margin-top: 10px;
 }
 
-/*Responsividade*/
+/*Responsivo*/
 
 @media (max-width: 768px) {
     .grid-container {
@@ -176,7 +175,7 @@ footer {
 
 @media (max-width: 480px) {
     .grid-container {
-        grid-template-columns: repeat(1, 1fr); /* Apenas 1 coluna em celulares */
+        grid-template-columns: repeat(1, 1fr); /* 1 coluna em celulares */
     }
 }
 
@@ -192,7 +191,7 @@ footer {
 
 @media (max-width: 768px) {
     .footer-container {
-        flex-direction: column; /* Organiza o footer em coluna */
+        flex-direction: column;
         text-align: center;
     }
 

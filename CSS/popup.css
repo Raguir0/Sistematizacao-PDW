@@ -57,8 +57,8 @@
 
 .calendario {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 colunas iguais */
-    grid-template-rows: repeat(2, auto);    /* 2 linhas */
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);    
     gap: 5px;
     margin-top: 10px;
 }
@@ -79,7 +79,7 @@
 }
 
 .dia-semana:active {
-    background-color: #2d44c7; /* Cor ao clicar */
+    background-color: #2d44c7;
 }
 
 .dia-semana.disponivel {
@@ -94,18 +94,18 @@
 }
 
 .dia-semana.disponivel:hover {
-    background-color: #426aa3; /* Um tom de verde ligeiramente diferente */
+    background-color: #426aa3;
     transform: scale(1.05);
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 @media (max-width: 768px) {
     .popup {
-        width: 90%; /* Reduz largura do popup */
+        width: 90%;
         padding: 15px;
     }
 
     .popup-content img {
-        max-width: 80%; /* Reduz imagem no popup */
+        max-width: 80%;
     }
 }
