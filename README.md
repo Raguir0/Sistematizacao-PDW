@@ -24,6 +24,8 @@ CSS3​
 
 JavaScript​
 
+Node.js
+
 📦 Gerenciamento de Dependências: 
 
 O projeto utiliza o Node.js para gerenciamento de dependências. Certifique-se de ter o Node.js instalado em sua máquina.​
